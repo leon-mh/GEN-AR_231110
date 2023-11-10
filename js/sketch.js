@@ -3,7 +3,7 @@ let h = 0
 function setup() {
 	createCanvas(895, 1280, document.getElementById('canvas-ar')) // poster aspect
 	pixelDensity(1) // prevent 200+ PPI lag
-	colorMode(HSL)
+	// colorMode(HSL)
 }
 
 function draw() {
