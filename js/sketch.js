@@ -12,13 +12,13 @@ function draw() {
 	// let fc = h + sin(frameCount * .1) * 40
 
 	// let c = get(width/2,height/2,100,100)
-	fill(50, 50, 50)
+	fill(frameCount%255, 50, 50)
 	// stroke(255)
 	
 	translate(x, y)
 	rotate(radians(frameCount * 1.1))
-	
-	rect(0, 0, 300, 30)
+	cone(300,100)
+	// rect(0, 0, 300, 30)
 	// circle(0,0,300,300)
 }
 
