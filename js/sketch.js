@@ -13,12 +13,12 @@ function draw() {
 
 	let c = get(width/2,height/2,100,100)
 	fill(frameCount%255, c, c)
-	noStroke()
+	stroke(255)
 	
 	translate(x, y)
 	rotate(radians(frameCount * 1.1))
-	cube(300,300,300)
-	// rect(0, 0, 300, 3)
+	
+	rect(0, 0, 300, 3)
 	// circle(0,0,300,300)
 }
 
